@@ -1,7 +1,0 @@
-def who_wins(number_of_stones):
-    if number_of_stones%2==0:
-        return "Bob"
-    else:
-        return "Alice"
-        
-print(who_wins(int(input())))
